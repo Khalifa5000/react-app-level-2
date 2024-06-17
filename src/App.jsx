@@ -7,10 +7,8 @@ function App() {
   return (
     <>
       <div className="card">
-        
-        <button >
-          count is 0
-        </button>
+        <h2>My name is Mohamed</h2>
+        <button>Change name</button>
 
       </div>
 
