@@ -14,6 +14,9 @@ const [theme, setTheme] = useState("")
 const changeAge = () => {
   setAge(33)
 }
+const resetAge = () => {
+  setAge(28)
+}
 
 const addCount = () => { 
   setCount(count + 1) ;
@@ -31,13 +34,16 @@ const addCount = () => {
         <button  onClick ={() =>{setTheme("dark")}} style={{marginRight: "26px"}}>Dark</button>
         <button  onClick ={() =>{setTheme("grey")}} style={{marginRight: "26px"}}>Grey</button>
         <button  onClick ={() =>{setTheme("pink")}}>Pink</button>
+      </div>
+        <div>
         <h2>My name is {name} </h2>
         <button onClick={ ()=>{ setName("Mohamed Khalifa")} } >Change name</button>
-      </div>
-
+        <button onClick={ ()=>{ setName("Mohamed")} } >Reset name</button>
+        </div>
       <div>
         <h2> My age is {age}</h2>
         <button onClick={ changeAge }>Change age</button>
+        <button onClick={ resetAge }>Rsset age</button>
       </div>
 
       <div>

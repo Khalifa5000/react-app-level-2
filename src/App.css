@@ -48,16 +48,23 @@
   align-items: center;
   justify-content: center;
 }
+.App button{
+  border: 2px solid black;
+  margin: 5px;
+}
 .App.light{
   background-color: white;
+  color: black;
 }
 .App.dark{
   background-color: #242424;
   color: white;
 }
 .App.grey{
-  background-color: grey;
+  background-color: #203f4f;
+  color: black;
 }
 .App.pink{
-  background-color: #b13c7c;
+  background-color: #75194c;
+  color: black;
 }
