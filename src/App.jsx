@@ -27,10 +27,10 @@ const addCount = () => {
   return (
     <div className={`App ${theme}`}>
       <div className="card">
-        <button  onClick ={() =>{setTheme("light")}} style={{marginRight: "26px" }}>light</button>
-        <button  onClick ={() =>{setTheme("dark")}} style={{marginRight: "26px"}}>dark</button>
-        <button  onClick ={() =>{setTheme("grey")}} style={{marginRight: "26px"}}>grey</button>
-        <button  onClick ={() =>{setTheme("pink")}}>pink</button>
+        <button  onClick ={() =>{setTheme("light")}} style={{marginRight: "26px" }}>lightight</button>
+        <button  onClick ={() =>{setTheme("dark")}} style={{marginRight: "26px"}}>Dark</button>
+        <button  onClick ={() =>{setTheme("grey")}} style={{marginRight: "26px"}}>Grey</button>
+        <button  onClick ={() =>{setTheme("pink")}}>Pink</button>
         <h2>My name is {name} </h2>
         <button onClick={ ()=>{ setName("Khalifa")} } >Change name</button>
       </div>
