@@ -32,7 +32,7 @@ const addCount = () => {
         <button  onClick ={() =>{setTheme("grey")}} style={{marginRight: "26px"}}>Grey</button>
         <button  onClick ={() =>{setTheme("pink")}}>Pink</button>
         <h2>My name is {name} </h2>
-        <button onClick={ ()=>{ setName("Khalifa")} } >Change name</button>
+        <button onClick={ ()=>{ setName("Mohamed Khalifa")} } >Change name</button>
       </div>
 
       <div>
