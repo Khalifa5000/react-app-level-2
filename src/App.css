@@ -43,17 +43,21 @@
 .App{
   width: 100vw ;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .App.light{
   background-color: white;
 }
 .App.dark{
-  background-color: black;
+  background-color: #242424;
   color: white;
 }
 .App.grey{
   background-color: grey;
 }
 .App.pink{
-  background-color: pink;
+  background-color: #b13c7c;
 }
