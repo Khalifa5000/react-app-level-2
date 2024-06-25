@@ -5,18 +5,18 @@ import {useState} from "react";
 
 function App() {
 const [ name, setName] = useState("Mohamed");
-const [ age , setAge]  = useState(28);
+const [ age , setAge]  = useState(35);
 
 const [count, setCount] = useState(0);
 const [subtraction, setSubtraction] = useState(count);
 const [theme, setTheme] = useState("")
 
-const changeAge = () => {
-  setAge(33)
-}
-const resetAge = () => {
-  setAge(28)
-}
+// const changeAge = () => {
+//   setAge(33)
+// }
+// const resetAge = () => {
+//   setAge(28)
+// }
 
 const addCount = () => { 
   setCount(count + 1) ;
@@ -42,8 +42,8 @@ const addCount = () => {
         </div>
       <div>
         <h2> My age is {age}</h2>
-        <button onClick={ changeAge }>Change age</button>
-        <button onClick={ resetAge }>Rsset age</button>
+        <button onClick={ ()=> {setAge(43) }}>Change age</button>
+        <button onClick={()=> { setAge(35) }}>Rsset age</button>
       </div>
 
       <div>
