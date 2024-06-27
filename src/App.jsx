@@ -186,12 +186,13 @@ const addCount = () => {
       <div>
         <br/>
         <button onClick={addCount}> Count {count} </button>
-      </div>
-
-      <div>
         <br/>
         <button onClick={changeSubtraction}> Subtraction {subtraction} </button>
+    
       </div>
+
+      
+      
 
     </div>
   )
