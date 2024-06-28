@@ -107,6 +107,7 @@ body:has(.switch__input:checked) {
 .switch__input {
 	display: block;
 	-webkit-tap-highlight-color: transparent;
+  cursor: pointer;
 }
 .switch {
 	margin: auto;
