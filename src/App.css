@@ -219,6 +219,7 @@ body:has(.switch__input:checked) {
 		0 0.125em 0.5em hsla(var(--hue),10%,10%,0.1);
 }
 .toggle{
-  margin: 30px;
+  display: flex;
+  flex-direction:column ;
   font-size: 30px;
 }

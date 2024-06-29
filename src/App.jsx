@@ -34,6 +34,7 @@ const addCount = () => {
 
 {/* Toggle switch */}
         <div className="toggle">
+          <p style={{fontSize:"20px", margin: "20px 0"}}>Switch theme</p>
           <svg display="none">
             <symbol
               id="light"
