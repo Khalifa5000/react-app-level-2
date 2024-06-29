@@ -40,7 +40,7 @@
 }
 .App{
   width: 100vw ;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,7 +93,7 @@ body {
 	background-color: hsl(var(--hue),10%,90%);
 	color: hsl(var(--hue),10%,10%);
 	display: flex;
-	height: 100vh;
+	/* height: 100vh; */
 	transition:
 		background-color var(--trans-dur),
 		color var(--trans-dur);
@@ -219,6 +219,7 @@ body:has(.switch__input:checked) {
 		0 0.125em 0.5em hsla(var(--hue),10%,10%,0.1);
 }
 .toggle{
-  margin: 30px;
+  display: flex;
+  flex-direction:column ;
   font-size: 30px;
 }
