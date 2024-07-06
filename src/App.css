@@ -11,6 +11,7 @@
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
+  -webkit-filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -150,6 +151,10 @@ body:has(.switch__input:checked) {
 .switch__inner-icons {
 	transition: transform var(--trans-dur) var(--trans-timing);
 	transform: translateX(-1.25em);
+	-webkit-transition: transform var(--trans-dur) var(--trans-timing);
+	-moz-transition: transform var(--trans-dur) var(--trans-timing);
+	-ms-transition: transform var(--trans-dur) var(--trans-timing);
+	-o-transition: transform var(--trans-dur) var(--trans-timing);
 }
 .switch__inner:before {
 	background-color: var(--primary);
@@ -181,10 +186,8 @@ body:has(.switch__input:checked) {
 	border-radius: 0.75em;
 	box-shadow:		0 0 0 0.0625em hsla(var(--hue),90%,50%,0),		0 0.125em 0.5em hsla(var(--hue),10%,10%,0.1);
 	outline: transparent;
-
 	width: 2.75em;
 	height: 1.5em;
-
 	-webkit-appearance: none;
 	appearance: none;
 	transition:		background-color var(--trans-dur),		box-shadow var(--trans-dur);
