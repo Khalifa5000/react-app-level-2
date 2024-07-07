@@ -11,12 +11,6 @@ const [count, setCount] = useState(0);
 const [subtraction, setSubtraction] = useState(count);
 const [theme, setTheme] = useState("")
 
-// const changeAge = () => {
-//   setAge(33)
-// }
-// const resetAge = () => {
-//   setAge(28)
-// }
 
 const addCount = () => { 
   setCount(count + 1) ;
